@@ -23,19 +23,7 @@ RUN make
 
 FROM alpine:3.17 as run
 
-RUN apk update && \
-    apk add --no-cache \
-    shadow \
-    openssl \
-    openssh \
-    curl \
-    wget \
-    git \
-    gnupg \
-    xz \
-    gcc \
-    musl-dev \
-    libstdc++
+RUN apk add --no-cache openssh git libstdc++
 
 RUN addgroup -S opengist && \
     adduser -S -G opengist -H -s /bin/ash -g 'Opengist User' opengist
