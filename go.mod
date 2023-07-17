@@ -8,13 +8,13 @@ require (
 	github.com/gorilla/sessions v1.2.1
 	github.com/labstack/echo/v4 v4.10.0
 	github.com/markbates/goth v1.77.0
-	github.com/mattn/go-sqlite3 v1.14.13
+	github.com/mattn/go-sqlite3 v1.14.17
 	github.com/rs/zerolog v1.29.0
 	golang.org/x/crypto v0.2.0
 	golang.org/x/text v0.7.0
 	gopkg.in/yaml.v3 v3.0.1
-	gorm.io/driver/sqlite v1.3.2
-	gorm.io/gorm v1.23.5
+	gorm.io/driver/sqlite v1.5.2
+	gorm.io/gorm v1.25.2-0.20230530020048-26663ab9bf55
 )
 
 require (
