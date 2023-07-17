@@ -1,4 +1,4 @@
-FROM alpine:3.17 AS build
+FROM alpine:3.18 AS build
 
 RUN apk update && \
     apk add --no-cache \
@@ -21,7 +21,7 @@ COPY . .
 RUN make
 
 
-FROM alpine:3.17 as run
+FROM alpine:3.18 as run
 
 RUN apk add --no-cache openssh git libstdc++
 
