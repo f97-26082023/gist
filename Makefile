@@ -17,7 +17,7 @@ build_frontend:
 
 build_backend:
 	@echo "Building Opengist binary..."
-	go build -tags fs_embed -o $(BINARY_NAME) .
+	go build -ldflags "-w" -tags fs_embed -o $(BINARY_NAME) .
 
 build: build_frontend build_backend
 
