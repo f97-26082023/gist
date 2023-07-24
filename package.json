@@ -24,7 +24,7 @@
     "markdown-it": "^13.0.1",
     "moment": "^2.29.3",
     "nodemon": "^2.0.22",
-    "postcss": "^8.4.13",
+    "postcss": "^8.4.27",
     "postcss-cssnext": "^3.1.1",
     "postcss-import": "^15.1.0",
     "postcss-loader": "^7.1.0",
