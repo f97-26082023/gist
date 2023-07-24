@@ -27,7 +27,7 @@
     "postcss": "^8.4.27",
     "postcss-cssnext": "^3.1.1",
     "postcss-import": "^15.1.0",
-    "postcss-loader": "^7.1.0",
+    "postcss-loader": "^7.3.3",
     "sass": "^1.62.1",
     "sugarss": "^4.0.1",
     "tailwindcss": "^3.2.7",
