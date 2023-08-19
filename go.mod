@@ -3,7 +3,7 @@ module github.com/thomiceli/opengist
 go 1.19
 
 require (
-	github.com/go-playground/validator/v10 v10.15.0
+	github.com/go-playground/validator/v10 v10.15.1
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/sessions v1.2.1
 	github.com/labstack/echo/v4 v4.11.1
