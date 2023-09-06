@@ -7,7 +7,7 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/sessions v1.2.1
 	github.com/labstack/echo/v4 v4.11.1
-	github.com/markbates/goth v1.77.0
+	github.com/markbates/goth v1.78.0
 	github.com/mattn/go-sqlite3 v1.14.17
 	github.com/rs/zerolog v1.30.0
 	golang.org/x/crypto v0.12.0
